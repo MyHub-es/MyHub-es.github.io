@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyHub</title>
+    <style>
+      body {
+        background-color: #1e2c3a;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        background-color: #3f5b71;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 50px auto;
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+      }
+      h1 {
+        color: #ffffff;
+        font-size: 48px;
+        margin-top: 0;
+      }
+      button {
+        background-color: #2c3e50;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 24px;
+        margin: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #1abc9c;
+      }
+      .hidden {
+        display: none;
+      }
+      p {
+        color: #ffffff;
+        font-size: 18px;
+        margin: 20px 0;
+        text-align: left;
+      }
+      a {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+    </style>
+    <script>
+      function showText(id) {
+        var text = document.getElementById(id);
+        if (text.className === "hidden") {
+          text.className = "";
+        } else {
+          text.className = "hidden";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>MyHub</h1>
+      <div>
+        <button onclick="showText('blox-fruits')">Blox Fruits</button>
+        <button onclick="showText('speed-legends')">Speed Legends</button>
+        <button onclick="showText('king-legacy')">King Legacy</button>
+      </div>
+      <div class="hidden" id="blox-fruits">
+        <p>BLACKHUB: blackhub is a blox fruits script that runs on executors such as hydrogen, fluxus, delta, etc. The mediafire link is this <a href="https://www.mediafire.com/file/r9k8bq7gldoutoo/black+hub.txt/file" target="_blank">https://www.mediafire.com/file/r9k8bq7gldoutoo/black+hub.txt/file</a></p>
+        <p>NEVAHUB: nevahub is an exploit similar to blackhub and with some other options. one of the differences is that it has a key. the media fire link is this <a href="https://www.mediafire.com/file/yqatdq85zli6nsw/nevahub.txt/file" target="_blank">https://www.mediafire.com/file/yqatdq85zli6nsw/nevahub.txt/file</a></p>
+      </div>
+      <div class="hidden" id="speed-legends">
+        <p>EXTRONIC: extronic is a speed legends script that runs on the krnl executor. The mediafire link is this <a href="https://www.mediafire.com/file/2tv32r6w5r2d47a/extronic.lua/file" target="_blank">https://www.mediafire.com/file/2tv32r6w5r2d47a/extronic.lua
+        </a></p>
+      </div>
+      <div class="hidden" id="king-legacy">
+      <p>STRIKEHUB: strikehub is a king legacy script, some options are autofarm. The mediafire link is this <a href="https://www.mediafire.com/file/7y7kxpc9p67w2vl/king+legacy.txt/file" target="_blank">https://www.mediafire.com/file/7y7kxpc9p67w2vl/king+legacy.txt/file</a></p>
+      </div>
+      </div>
+      
+        </body>
+      </html>
+      ```
+
